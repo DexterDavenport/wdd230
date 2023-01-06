@@ -1,0 +1,54 @@
+@media screen and (min-width: 640px) { 
+    body {
+        font-family: Arial;
+        color: black;
+        background-color: white;
+      }
+      
+      nav {
+        background-color: lightcoral;
+        color: white;
+        padding: 20px;
+        text-align: right;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      
+      header {
+        background-color: lightcoral;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      header img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+      }
+      
+      main {
+        background: white;
+        padding: 1rem;
+        margin: 1rem auto;
+        border: solid;
+        grid-template-columns: 1fr / 4fr;
+        grid-template-rows: 1fr / 4fr;
+        display: flex;
+        justify-content: space-evenly;
+    }
+      
+      footer {
+        background-color: lightcoral;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      section {
+        border: solid;
+      }
+      
+    
+}
