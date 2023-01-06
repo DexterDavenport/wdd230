@@ -1,35 +1,36 @@
-@media screen and (min-width: 700px) { 
+@media screen and (min-width: 700px) {
     body {
         font-family: Arial;
         color: black;
         background-color: white;
-      }
-      
-      nav {
-        background-color: lightcoral;
+    }
+
+    nav {
+        background-color: #247BA0;
         color: white;
         padding: 20px;
         text-align: right;
         display: flex;
         justify-content: space-evenly;
-      }
-      
-      header {
-        background-color: lightcoral;
+    }
+
+    header {
+        background-color: #8CB369;
         color: white;
         padding: 20px;
         text-align: center;
-      }
-      
-      header img {
+        font-family: Courier New;
+    }
+
+    header img {
         border-radius: 50%;
         width: 150px;
         height: 150px;
         margin-right: 20px;
-      }
-      
-      main {
-        background: white;
+    }
+
+    main {
+        background: #FFE066;
         padding: 1rem;
         margin: 1rem auto;
         border: solid;
@@ -38,17 +39,20 @@
         display: flex;
         justify-content: space-evenly;
     }
-      
-      footer {
-        background-color: lightcoral;
+
+    footer {
+        background-color: #8CB369;
         color: white;
         padding: 20px;
         text-align: center;
-      }
+        font-family: Times New Roman;
+    }
 
-      section {
+    section {
+        background-color: aliceblue;
+        font-family: Courier New;
         border: solid;
-      }
-      
-    
+    }
+
+
 }
